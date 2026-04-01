@@ -1,6 +1,6 @@
 {
   "name": "ax",
-  "description": "Buzzni 개발팀 전용 플러그인 - 스펙 기반 개발 워크플로우, 에이전트 시스템, 코드 리뷰, 디버깅, 테스팅",
+  "description": "AX 전용 플러그인 - 스펙 기반 개발 워크플로우, 에이전트 시스템, 코드 리뷰, 디버깅, 테스팅",
   "version": "1.0.0",
   "author": {
     "name": "Buzzni"
