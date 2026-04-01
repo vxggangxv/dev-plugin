@@ -1,0 +1,21 @@
+{
+  "instructions": [
+    "# 코드 검색 우선순위",
+    "Serena → Grep/Glob 순서로 사용. Grep/Glob은 텍스트 매칭이라 dead code 오인 가능.",
+    "심볼 정의/참조 찾기는 Serena(find_symbol, find_referencing_symbols) 우선.",
+    "비코드 파일(설정, 마크다운)만 Grep/Glob 사용.",
+    "",
+    "# 파일 작성/편집",
+    "serena의 create_text_file, replace_content 절대 사용 금지. Write/Edit 빌트인 도구만 사용.",
+    "",
+    "# 워크플로우",
+    "코드 수정 후 반드시 타입체크 실행.",
+    "전체 테스트가 아닌 관련 파일만 테스트.",
+    "구현 후 린트 에러 통과 확인.",
+    "",
+    "# 서브에이전트 시스템",
+    "use [agentname] → 해당 에이전트 읽고 실행.",
+    "use agents → AGENT_SYSTEM.md 읽고 다중 에이전트 실행.",
+    "use dev → AGENT_SYSTEM.md 읽고 개발 에이전트 실행."
+  ]
+}
